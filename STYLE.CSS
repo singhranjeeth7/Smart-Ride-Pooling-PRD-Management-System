@@ -1,0 +1,74 @@
+/* Global styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #1e293b;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Navigation bar */
+nav {
+  background: #0f172a;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: #e5e7eb;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main container */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Sections */
+section {
+  background: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background: #f1f5f9;
+}
+
+/* Footer */
+footer {
+  background: #0f172a;
+  color: #94a3b8;
+  text-align: center;
+  padding: 20px;
+}
